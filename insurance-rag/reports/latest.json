@@ -1,0 +1,1218 @@
+{
+  "summary": {
+    "total_questions": 40,
+    "answerable_questions": 34,
+    "out_of_scope_questions": 6,
+    "hit_at_1": 0.8824,
+    "hit_at_3": 1.0,
+    "hit_at_5": 1.0,
+    "mrr": 0.9412,
+    "keyword_coverage": 1.0,
+    "abstention_accuracy": 0.6667,
+    "false_abstention_rate": 0.0,
+    "faithfulness_score": null,
+    "generated_at": "2026-11-20T14:55:05.042400+00:00"
+  },
+  "results": [
+    {
+      "id": "q01",
+      "question": "What is the grace period for a health insurance policy paid monthly?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "1. Grace Period and Continuity Benefits",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "1. Grace Period and Continuity Benefits",
+        "6. Health Insurance Portability and Migration",
+        "2. Free Look Period",
+        "3. Policy Cancellation and Premium Refund",
+        "3. Moratorium Period"
+      ],
+      "best_score": 1.0,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (1. Grace Period and Continuity Benefits), Under the IRDAI Master Circular on Health Insurance Business (May 2024), insurers must offer a grace period for renewal of health insurance policies without loss of continuity benefits [1]."
+    },
+    {
+      "id": "q02",
+      "question": "How long is the grace period for annual or quarterly health insurance renewals?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "1. Grace Period and Continuity Benefits",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt"
+      ],
+      "retrieved_sections": [
+        "1. Grace Period and Continuity Benefits",
+        "6. Health Insurance Portability and Migration",
+        "3. Moratorium Period",
+        "4. Pre-Existing Disease (PED) and Specific Waiting Periods",
+        "6. INITIAL WAITING PERIOD AND STANDARD PERMANENT EXCLUSIONS"
+      ],
+      "best_score": 0.8944,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (1. Grace Period and Continuity Benefits), Under the IRDAI Master Circular on Health Insurance Business (May 2024), insurers must offer a grace period for renewal of health insurance policies without loss of continuity benefits [1]."
+    },
+    {
+      "id": "q03",
+      "question": "How many days do policyholders get in the free look period to cancel a new health policy?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "2. Free Look Period",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "2. Free Look Period",
+        "3. Policy Cancellation and Premium Refund",
+        "6. Health Insurance Portability and Migration",
+        "1. Customer Information Sheet (CIS)",
+        "1. Grace Period and Continuity Benefits"
+      ],
+      "best_score": 0.8625,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (2. Free Look Period), Every new retail health insurance policy (other than those with a tenure of less than one year) carries a mandatory free look period of 30 days from the date of receipt of the policy document, whether received electronically or in physical form [1]."
+    },
+    {
+      "id": "q04",
+      "question": "What deductions can an insurer make during a free look cancellation?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "2. Free Look Period",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt"
+      ],
+      "retrieved_sections": [
+        "2. Free Look Period",
+        "3. Policy Cancellation and Premium Refund",
+        "1. Customer Information Sheet (CIS)",
+        "3. Moratorium Period",
+        "1. OPERATIVE CLAUSE AND SUM INSURED OPTIONS"
+      ],
+      "best_score": 0.92,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (2. Free Look Period), Every new retail health insurance policy (other than those with a tenure of less than one year) carries a mandatory free look period of 30 days from the date of receipt of the policy document, whether received electronically or in physical form [1]."
+    },
+    {
+      "id": "q05",
+      "question": "When does the moratorium period apply in health insurance so a claim cannot be contested for non-disclosure?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "3. Moratorium Period",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "3. Moratorium Period",
+        "8. Lifelong Renewability and AYUSH Coverage",
+        "6. Health Insurance Portability and Migration",
+        "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+        "5. Cashless Claim Turnaround Time"
+      ],
+      "best_score": 1.0,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (3. Moratorium Period), After completion of 60 continuous months (5 years) of coverage under a health insurance policy\u2014including portability and migration across insurers\u2014no policy and no claim can be called into question or contested by the insurer on grounds of non-disclosure or misrepresentation, except in cases of established fraud [1]."
+    },
+    {
+      "id": "q06",
+      "question": "Does the 60-month moratorium period cover an enhanced sum insured immediately?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "3. Moratorium Period",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt"
+      ],
+      "retrieved_sections": [
+        "3. Moratorium Period",
+        "6. Health Insurance Portability and Migration",
+        "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+        "5. CUMULATIVE BONUS AND CO-PAYMENT",
+        "1. OPERATIVE CLAUSE AND SUM INSURED OPTIONS"
+      ],
+      "best_score": 0.9731,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (3. Moratorium Period), After completion of 60 continuous months (5 years) of coverage under a health insurance policy\u2014including portability and migration across insurers\u2014no policy and no claim can be called into question or contested by the insurer on grounds of non-disclosure or misrepresentation, except in cases of established fraud [1]."
+    },
+    {
+      "id": "q07",
+      "question": "What is the maximum waiting period an insurer can impose for a Pre-Existing Disease?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "4. Pre-Existing Disease (PED) and Specific Waiting Periods",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "pmjay_ab_operational_guidelines.md",
+        "irdai_protection_of_policyholders_interests_2024.md"
+      ],
+      "retrieved_sections": [
+        "4. Pre-Existing Disease (PED) and Specific Waiting Periods",
+        "6. Health Insurance Portability and Migration",
+        "3. Moratorium Period",
+        "3. Pre-Existing Diseases and Waiting Period",
+        "1. Customer Information Sheet (CIS)"
+      ],
+      "best_score": 1.0,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (4. Pre-Existing Disease (PED) and Specific Waiting Periods), A Pre-Existing Disease (PED) is defined as any condition, ailment, injury, or disease diagnosed by a physician, or for which medical advice or treatment was recommended by or received from a physician, within 36 months prior to the effective date of the policy issued by the insurer or its reinstatement [1]."
+    },
+    {
+      "id": "q08",
+      "question": "How long can the specific waiting period be for slow-growing ailments like cataract or hernia?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "4. Pre-Existing Disease (PED) and Specific Waiting Periods",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "pmjay_ab_operational_guidelines.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt"
+      ],
+      "retrieved_sections": [
+        "4. Pre-Existing Disease (PED) and Specific Waiting Periods",
+        "3. Pre-Existing Diseases and Waiting Period",
+        "6. Health Insurance Portability and Migration",
+        "3. Moratorium Period",
+        "6. INITIAL WAITING PERIOD AND STANDARD PERMANENT EXCLUSIONS"
+      ],
+      "best_score": 0.8846,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (4. Pre-Existing Disease (PED) and Specific Waiting Periods), A Pre-Existing Disease (PED) is defined as any condition, ailment, injury, or disease diagnosed by a physician, or for which medical advice or treatment was recommended by or received from a physician, within 36 months prior to the effective date of the policy issued by the insurer or its reinstatement [1]."
+    },
+    {
+      "id": "q09",
+      "question": "Within how many hours must an insurer decide on an initial cashless pre-authorization request?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "5. Cashless Claim Turnaround Time",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "5. Cashless Claim Turnaround Time",
+        "6. Health Insurance Portability and Migration",
+        "2. Proposal Form and Underwriting Turnaround Time",
+        "4. Grievance Redressal Mechanism and Bima Bharosa",
+        "7. Claim Settlement, Repudiation, and Claims Review Committee"
+      ],
+      "best_score": 1.0,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (5. Cashless Claim Turnaround Time), Insurers must decide on requests for cashless pre-authorization within 1 hour of receipt of the request from the network hospital [1]."
+    },
+    {
+      "id": "q10",
+      "question": "What is the turnaround time for final cashless discharge authorization and who pays if it is delayed?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "5. Cashless Claim Turnaround Time",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_protection_of_policyholders_interests_2024.md"
+      ],
+      "retrieved_sections": [
+        "5. Cashless Claim Turnaround Time",
+        "2. Proposal Form and Underwriting Turnaround Time",
+        "4. Grievance Redressal Mechanism and Bima Bharosa",
+        "3. PRE-HOSPITALIZATION AND POST-HOSPITALIZATION EXPENSES",
+        "3. Policy Cancellation and Premium Refund"
+      ],
+      "best_score": 0.8846,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (5. Cashless Claim Turnaround Time), Insurers must decide on requests for cashless pre-authorization within 1 hour of receipt of the request from the network hospital [1]."
+    },
+    {
+      "id": "q11",
+      "question": "When must I apply if I want to switch my health insurer at renewal?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "6. Health Insurance Portability and Migration",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "6. Health Insurance Portability and Migration",
+        "5. CUMULATIVE BONUS AND CO-PAYMENT",
+        "8. Lifelong Renewability and AYUSH Coverage",
+        "7. Claim Settlement, Repudiation, and Claims Review Committee",
+        "3. Moratorium Period"
+      ],
+      "best_score": 0.69,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (6. Health Insurance Portability and Migration), A policyholder covered under an indemnity health insurance policy has the right to port the policy to another general or health insurer at the time of renewal [1]."
+    },
+    {
+      "id": "q12",
+      "question": "Do I lose my accrued No Claim Bonus and waiting period credits when porting to a new insurer?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "6. Health Insurance Portability and Migration",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "6. Health Insurance Portability and Migration",
+        "4. Pre-Existing Disease (PED) and Specific Waiting Periods",
+        "1. Grace Period and Continuity Benefits",
+        "3. Moratorium Period",
+        "2. Free Look Period"
+      ],
+      "best_score": 0.69,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (6. Health Insurance Portability and Migration), A policyholder covered under an indemnity health insurance policy has the right to port the policy to another general or health insurer at the time of renewal [1]."
+    },
+    {
+      "id": "q13",
+      "question": "How many days does an insurer have to settle a reimbursement claim and what is the penalty for delay?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "7. Claim Settlement, Repudiation, and Claims Review Committee",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "7. Claim Settlement, Repudiation, and Claims Review Committee",
+        "5. Insurance Ombudsman Jurisdiction",
+        "6. Health Insurance Portability and Migration",
+        "3. Policy Cancellation and Premium Refund",
+        "3. Moratorium Period"
+      ],
+      "best_score": 0.8625,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (7. Claim Settlement, Repudiation, and Claims Review Committee), For reimbursement claims, the insurer must settle or reject the claim within 15 days from the date of receipt of the last necessary document [1]."
+    },
+    {
+      "id": "q14",
+      "question": "Can an insurer reject a health insurance claim without review by a committee?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "7. Claim Settlement, Repudiation, and Claims Review Committee",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "7. Claim Settlement, Repudiation, and Claims Review Committee",
+        "8. Lifelong Renewability and AYUSH Coverage",
+        "5. Insurance Ombudsman Jurisdiction",
+        "3. Moratorium Period",
+        "2. Free Look Period"
+      ],
+      "best_score": 1.0,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (7. Claim Settlement, Repudiation, and Claims Review Committee), For reimbursement claims, the insurer must settle or reject the claim within 15 days from the date of receipt of the last necessary document [1]."
+    },
+    {
+      "id": "q15",
+      "question": "Can a health insurer refuse renewal because I made a claim last year?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "8. Lifelong Renewability and AYUSH Coverage",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md"
+      ],
+      "retrieved_sections": [
+        "8. Lifelong Renewability and AYUSH Coverage",
+        "5. CUMULATIVE BONUS AND CO-PAYMENT",
+        "2. Free Look Period",
+        "6. Health Insurance Portability and Migration",
+        "3. Policy Cancellation and Premium Refund"
+      ],
+      "best_score": 1.0,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (8. Lifelong Renewability and AYUSH Coverage), All retail health insurance policies are guaranteed to be renewable lifelong, except on grounds of established fraud, non-disclosure, or misrepresentation by the insured [1]."
+    },
+    {
+      "id": "q16",
+      "question": "Are Ayurveda and Homeopathy treatments covered up to the full Sum Insured?",
+      "expected_doc": "irdai_health_insurance_master_circular_2024.md",
+      "expected_section": "8. Lifelong Renewability and AYUSH Coverage",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt"
+      ],
+      "retrieved_sections": [
+        "8. Lifelong Renewability and AYUSH Coverage",
+        "4. AMBULANCE AND CATARACT SUB-LIMITS",
+        "6. Health Insurance Portability and Migration",
+        "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+        "3. PRE-HOSPITALIZATION AND POST-HOSPITALIZATION EXPENSES"
+      ],
+      "best_score": 1.0,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (8. Lifelong Renewability and AYUSH Coverage), All retail health insurance policies are guaranteed to be renewable lifelong, except on grounds of established fraud, non-disclosure, or misrepresentation by the insured [1]."
+    },
+    {
+      "id": "q17",
+      "question": "What information must be included in the Customer Information Sheet (CIS)?",
+      "expected_doc": "irdai_protection_of_policyholders_interests_2024.md",
+      "expected_section": "1. Customer Information Sheet (CIS)",
+      "retrieved_docs": [
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt"
+      ],
+      "retrieved_sections": [
+        "1. Customer Information Sheet (CIS)",
+        "2. Proposal Form and Underwriting Turnaround Time",
+        "7. Claim Settlement, Repudiation, and Claims Review Committee",
+        "5. Insurance Ombudsman Jurisdiction",
+        "5. CUMULATIVE BONUS AND CO-PAYMENT"
+      ],
+      "best_score": 0.7667,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Protection of Policyholders' Interests Regulations (2024) (1. Customer Information Sheet (CIS)), Under the IRDAI (Protection of Policyholders' Interests, Operations and Allied Matters of Insurers) Regulations, 2024, every insurer must provide a concise Customer Information Sheet (CIS) along with the policy document in simple, accessible language [1]."
+    },
+    {
+      "id": "q18",
+      "question": "How fast must an insurer decide on an insurance proposal and send a copy of the proposal form?",
+      "expected_doc": "irdai_protection_of_policyholders_interests_2024.md",
+      "expected_section": "2. Proposal Form and Underwriting Turnaround Time",
+      "retrieved_docs": [
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md"
+      ],
+      "retrieved_sections": [
+        "2. Proposal Form and Underwriting Turnaround Time",
+        "4. Grievance Redressal Mechanism and Bima Bharosa",
+        "2. Free Look Period",
+        "5. Cashless Claim Turnaround Time",
+        "3. Policy Cancellation and Premium Refund"
+      ],
+      "best_score": 0.7188,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Protection of Policyholders' Interests Regulations (2024) (2. Proposal Form and Underwriting Turnaround Time), Every insurer must process a proposal for insurance and communicate its underwriting decision in writing within 15 days from the date of receipt of the proposal or any additional information requested [1]."
+    },
+    {
+      "id": "q19",
+      "question": "How much notice is required when a policyholder or insurer cancels a retail policy?",
+      "expected_doc": "irdai_protection_of_policyholders_interests_2024.md",
+      "expected_section": "3. Policy Cancellation and Premium Refund",
+      "retrieved_docs": [
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "3. Policy Cancellation and Premium Refund",
+        "8. Lifelong Renewability and AYUSH Coverage",
+        "5. Insurance Ombudsman Jurisdiction",
+        "2. Free Look Period",
+        "6. Health Insurance Portability and Migration"
+      ],
+      "best_score": 0.7188,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Protection of Policyholders' Interests Regulations (2024) (3. Policy Cancellation and Premium Refund), A policyholder may cancel a retail health or general insurance policy at any time by giving 7 days' written notice to the insurer [1]."
+    },
+    {
+      "id": "q20",
+      "question": "Within how many days must an insurer acknowledge and resolve a policyholder grievance?",
+      "expected_doc": "irdai_protection_of_policyholders_interests_2024.md",
+      "expected_section": "4. Grievance Redressal Mechanism and Bima Bharosa",
+      "retrieved_docs": [
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md"
+      ],
+      "retrieved_sections": [
+        "4. Grievance Redressal Mechanism and Bima Bharosa",
+        "1. Customer Information Sheet (CIS)",
+        "6. Health Insurance Portability and Migration",
+        "2. Proposal Form and Underwriting Turnaround Time",
+        "5. Insurance Ombudsman Jurisdiction"
+      ],
+      "best_score": 1.0,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Protection of Policyholders' Interests Regulations (2024) (4. Grievance Redressal Mechanism and Bima Bharosa), Every insurer must establish an accessible Grievance Redressal Officer (GRO) at its corporate and regional offices and integrate with IRDAI's Integrated Grievance Management System (IGMS), known as Bima Bharosa [1]."
+    },
+    {
+      "id": "q21",
+      "question": "What is the compensation limit of the Insurance Ombudsman and the deadline to file a complaint?",
+      "expected_doc": "irdai_protection_of_policyholders_interests_2024.md",
+      "expected_section": "5. Insurance Ombudsman Jurisdiction",
+      "retrieved_docs": [
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "pmjay_ab_operational_guidelines.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_protection_of_policyholders_interests_2024.md"
+      ],
+      "retrieved_sections": [
+        "4. Grievance Redressal Mechanism and Bima Bharosa",
+        "5. Insurance Ombudsman Jurisdiction",
+        "6. Beneficiary Verification and Grievance Redressal",
+        "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+        "1. Customer Information Sheet (CIS)"
+      ],
+      "best_score": 0.7667,
+      "abstained": false,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Protection of Policyholders' Interests Regulations (2024) (4. Grievance Redressal Mechanism and Bima Bharosa), Every insurer must establish an accessible Grievance Redressal Officer (GRO) at its corporate and regional offices and integrate with IRDAI's Integrated Grievance Management System (IGMS), known as Bima Bharosa [1]."
+    },
+    {
+      "id": "q22",
+      "question": "Who qualifies as a beneficial nominee under Section 39 of the Insurance Act?",
+      "expected_doc": "irdai_protection_of_policyholders_interests_2024.md",
+      "expected_section": "6. Nomination and Beneficial Nominee Rules",
+      "retrieved_docs": [
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "6. Nomination and Beneficial Nominee Rules",
+        "4. Pre-Existing Disease (PED) and Specific Waiting Periods",
+        "5. Insurance Ombudsman Jurisdiction",
+        "6. INITIAL WAITING PERIOD AND STANDARD PERMANENT EXCLUSIONS",
+        "6. Health Insurance Portability and Migration"
+      ],
+      "best_score": 0.92,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Protection of Policyholders' Interests Regulations (2024) (6. Nomination and Beneficial Nominee Rules), Under Section 39 of the Insurance Act, 1938, the holder of a life insurance policy on their own life may nominate one or more persons to whom policy moneys shall be payable in the event of death [1]."
+    },
+    {
+      "id": "q23",
+      "question": "What are the minimum and maximum Sum Insured options in the standard Arogya Sanjeevani policy?",
+      "expected_doc": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+      "expected_section": "1. OPERATIVE CLAUSE AND SUM INSURED OPTIONS",
+      "retrieved_docs": [
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_protection_of_policyholders_interests_2024.md"
+      ],
+      "retrieved_sections": [
+        "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+        "1. OPERATIVE CLAUSE AND SUM INSURED OPTIONS",
+        "5. CUMULATIVE BONUS AND CO-PAYMENT",
+        "4. AMBULANCE AND CATARACT SUB-LIMITS",
+        "1. Customer Information Sheet (CIS)"
+      ],
+      "best_score": 1.0,
+      "abstained": false,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model) (2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS), In-patient hospitalization requires admission as an inpatient for a minimum period of 24 consecutive hours, except for listed Day Care procedures where 24-hour hospitalization is not clinically required due to technological advancement [1]."
+    },
+    {
+      "id": "q24",
+      "question": "What are the daily room rent and ICU limits under the standard health policy wordings?",
+      "expected_doc": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+      "expected_section": "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+      "retrieved_docs": [
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt"
+      ],
+      "retrieved_sections": [
+        "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+        "1. OPERATIVE CLAUSE AND SUM INSURED OPTIONS",
+        "3. PRE-HOSPITALIZATION AND POST-HOSPITALIZATION EXPENSES",
+        "5. CUMULATIVE BONUS AND CO-PAYMENT",
+        "4. AMBULANCE AND CATARACT SUB-LIMITS"
+      ],
+      "best_score": 0.9409,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model) (2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS), In-patient hospitalization requires admission as an inpatient for a minimum period of 24 consecutive hours, except for listed Day Care procedures where 24-hour hospitalization is not clinically required due to technological advancement [1]."
+    },
+    {
+      "id": "q25",
+      "question": "What happens if a patient chooses a hospital room above the eligible room rent limit?",
+      "expected_doc": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+      "expected_section": "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+      "retrieved_docs": [
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_health_insurance_master_circular_2024.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md"
+      ],
+      "retrieved_sections": [
+        "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+        "5. Cashless Claim Turnaround Time",
+        "2. Beneficiary Eligibility and Senior Citizen Expansion",
+        "5. Health Benefit Packages, Zero Co-Payment, and National Portability",
+        "1. Scheme Overview and Coverage Limit"
+      ],
+      "best_score": 0.7962,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model) (2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS), In-patient hospitalization requires admission as an inpatient for a minimum period of 24 consecutive hours, except for listed Day Care procedures where 24-hour hospitalization is not clinically required due to technological advancement [1]."
+    },
+    {
+      "id": "q26",
+      "question": "How many days of pre-hospitalization and post-hospitalization expenses are covered in the standard policy?",
+      "expected_doc": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+      "expected_section": "3. PRE-HOSPITALIZATION AND POST-HOSPITALIZATION EXPENSES",
+      "retrieved_docs": [
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "pmjay_ab_operational_guidelines.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt"
+      ],
+      "retrieved_sections": [
+        "3. PRE-HOSPITALIZATION AND POST-HOSPITALIZATION EXPENSES",
+        "6. INITIAL WAITING PERIOD AND STANDARD PERMANENT EXCLUSIONS",
+        "4. AMBULANCE AND CATARACT SUB-LIMITS",
+        "4. Pre-Hospitalization and Post-Hospitalization Benefits",
+        "1. OPERATIVE CLAUSE AND SUM INSURED OPTIONS"
+      ],
+      "best_score": 1.0,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model) (3. PRE-HOSPITALIZATION AND POST-HOSPITALIZATION EXPENSES), Medical expenses incurred immediately prior to the date of hospitalization are covered up to 30 days preceding admission, provided such expenses are directly related to the ailment for which hospitalization was subsequently required [1]."
+    },
+    {
+      "id": "q27",
+      "question": "What are the ambulance and cataract sub-limits in the standard Arogya Sanjeevani policy?",
+      "expected_doc": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+      "expected_section": "4. AMBULANCE AND CATARACT SUB-LIMITS",
+      "retrieved_docs": [
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt"
+      ],
+      "retrieved_sections": [
+        "4. AMBULANCE AND CATARACT SUB-LIMITS",
+        "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+        "1. OPERATIVE CLAUSE AND SUM INSURED OPTIONS",
+        "5. CUMULATIVE BONUS AND CO-PAYMENT",
+        "3. PRE-HOSPITALIZATION AND POST-HOSPITALIZATION EXPENSES"
+      ],
+      "best_score": 1.0,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model) (4. AMBULANCE AND CATARACT SUB-LIMITS), Road ambulance charges incurred for transporting the Insured Person to the nearest hospital in an emergency are covered up to a maximum of Rs [1]."
+    },
+    {
+      "id": "q28",
+      "question": "How does Cumulative Bonus work and what is the mandatory co-payment in the standard policy?",
+      "expected_doc": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+      "expected_section": "5. CUMULATIVE BONUS AND CO-PAYMENT",
+      "retrieved_docs": [
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md"
+      ],
+      "retrieved_sections": [
+        "5. CUMULATIVE BONUS AND CO-PAYMENT",
+        "6. Health Insurance Portability and Migration",
+        "2. Free Look Period",
+        "1. Grace Period and Continuity Benefits",
+        "1. Customer Information Sheet (CIS)"
+      ],
+      "best_score": 0.8944,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model) (5. CUMULATIVE BONUS AND CO-PAYMENT), The Sum Insured shall be increased by 5% in respect of each claim-free policy year, subject to a maximum cumulative accumulation of 50% of the basic Sum Insured [1]."
+    },
+    {
+      "id": "q29",
+      "question": "What is the initial waiting period and are accidental injuries excluded during it?",
+      "expected_doc": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+      "expected_section": "6. INITIAL WAITING PERIOD AND STANDARD PERMANENT EXCLUSIONS",
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "pmjay_ab_operational_guidelines.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "4. Pre-Existing Disease (PED) and Specific Waiting Periods",
+        "6. INITIAL WAITING PERIOD AND STANDARD PERMANENT EXCLUSIONS",
+        "3. Pre-Existing Diseases and Waiting Period",
+        "1. Grace Period and Continuity Benefits",
+        "6. Health Insurance Portability and Migration"
+      ],
+      "best_score": 0.575,
+      "abstained": false,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (4. Pre-Existing Disease (PED) and Specific Waiting Periods), A Pre-Existing Disease (PED) is defined as any condition, ailment, injury, or disease diagnosed by a physician, or for which medical advice or treatment was recommended by or received from a physician, within 36 months prior to the effective date of the policy issued by the insurer or its reinstatement [1]."
+    },
+    {
+      "id": "q30",
+      "question": "What is the annual coverage amount per family under AB PM-JAY?",
+      "expected_doc": "pmjay_ab_operational_guidelines.md",
+      "expected_section": "1. Scheme Overview and Coverage Limit",
+      "retrieved_docs": [
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md"
+      ],
+      "retrieved_sections": [
+        "1. Scheme Overview and Coverage Limit",
+        "2. Beneficiary Eligibility and Senior Citizen Expansion",
+        "4. Pre-Hospitalization and Post-Hospitalization Benefits",
+        "5. Health Benefit Packages, Zero Co-Payment, and National Portability",
+        "3. Pre-Existing Diseases and Waiting Period"
+      ],
+      "best_score": 0.805,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on Ayushman Bharat \u2013 Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) Operational Guidelines (1. Scheme Overview and Coverage Limit), Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) is India's flagship publicly funded health assurance scheme implemented by the National Health Authority (NHA) [1]."
+    },
+    {
+      "id": "q31",
+      "question": "Is there any age or family size cap under Ayushman Bharat PM-JAY, and what do 70+ senior citizens get?",
+      "expected_doc": "pmjay_ab_operational_guidelines.md",
+      "expected_section": "2. Beneficiary Eligibility and Senior Citizen Expansion",
+      "retrieved_docs": [
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md"
+      ],
+      "retrieved_sections": [
+        "2. Beneficiary Eligibility and Senior Citizen Expansion",
+        "5. Health Benefit Packages, Zero Co-Payment, and National Portability",
+        "1. Scheme Overview and Coverage Limit",
+        "4. Pre-Hospitalization and Post-Hospitalization Benefits",
+        "3. Pre-Existing Diseases and Waiting Period"
+      ],
+      "best_score": 0.9036,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on Ayushman Bharat \u2013 Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) Operational Guidelines (2. Beneficiary Eligibility and Senior Citizen Expansion), Eligibility for AB PM-JAY was originally determined using the Socio-Economic Caste Census (SECC) 2011 database based on deprivation criteria for rural households and defined occupational categories for urban households, along with families covered under the erstwhile Rashtriya Swasthya Bima Yojana (RSBY) [1]."
+    },
+    {
+      "id": "q32",
+      "question": "Does PM-JAY have a waiting period for pre-existing diseases or require co-payment?",
+      "expected_doc": "pmjay_ab_operational_guidelines.md",
+      "expected_section": "3. Pre-Existing Diseases and Waiting Period",
+      "retrieved_docs": [
+        "pmjay_ab_operational_guidelines.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md"
+      ],
+      "retrieved_sections": [
+        "3. Pre-Existing Diseases and Waiting Period",
+        "4. Pre-Existing Disease (PED) and Specific Waiting Periods",
+        "5. Health Benefit Packages, Zero Co-Payment, and National Portability",
+        "4. Pre-Hospitalization and Post-Hospitalization Benefits",
+        "2. Beneficiary Eligibility and Senior Citizen Expansion"
+      ],
+      "best_score": 0.6708,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on Ayushman Bharat \u2013 Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) Operational Guidelines (3. Pre-Existing Diseases and Waiting Period), Under AB PM-JAY, all pre-existing diseases and medical conditions are covered from Day 1 of enrollment [1]."
+    },
+    {
+      "id": "q33",
+      "question": "How many days of pre and post hospitalization are included under PM-JAY packages?",
+      "expected_doc": "pmjay_ab_operational_guidelines.md",
+      "expected_section": "4. Pre-Hospitalization and Post-Hospitalization Benefits",
+      "retrieved_docs": [
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md"
+      ],
+      "retrieved_sections": [
+        "5. Health Benefit Packages, Zero Co-Payment, and National Portability",
+        "4. Pre-Hospitalization and Post-Hospitalization Benefits",
+        "1. Scheme Overview and Coverage Limit",
+        "6. Beneficiary Verification and Grievance Redressal",
+        "2. Beneficiary Eligibility and Senior Citizen Expansion"
+      ],
+      "best_score": 0.69,
+      "abstained": false,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 0.5,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on Ayushman Bharat \u2013 Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) Operational Guidelines (5. Health Benefit Packages, Zero Co-Payment, and National Portability), Treatments are reimbursed to empanelled healthcare providers (EHCPs) based on standardized Health Benefit Package (HBP) rates covering medical, surgical, daycare, and follow-up procedures [1]."
+    },
+    {
+      "id": "q34",
+      "question": "What is the helpline number and grievance resolution timeline under PM-JAY?",
+      "expected_doc": "pmjay_ab_operational_guidelines.md",
+      "expected_section": "6. Beneficiary Verification and Grievance Redressal",
+      "retrieved_docs": [
+        "pmjay_ab_operational_guidelines.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md",
+        "pmjay_ab_operational_guidelines.md"
+      ],
+      "retrieved_sections": [
+        "6. Beneficiary Verification and Grievance Redressal",
+        "4. Grievance Redressal Mechanism and Bima Bharosa",
+        "4. Pre-Hospitalization and Post-Hospitalization Benefits",
+        "2. Beneficiary Eligibility and Senior Citizen Expansion",
+        "5. Health Benefit Packages, Zero Co-Payment, and National Portability"
+      ],
+      "best_score": 0.7077,
+      "abstained": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "hit_at_5": true,
+      "reciprocal_rank": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": null,
+      "faithfulness_score": null,
+      "answer": "Based on Ayushman Bharat \u2013 Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) Operational Guidelines (6. Beneficiary Verification and Grievance Redressal), Beneficiary identity is verified at the hospital helpdesk (Pradhan Mantri Arogya Mitra) using the Beneficiary Identification System (BIS) through Aadhaar-based biometric, OTP, or iris authentication to generate the Ayushman Card [1]."
+    },
+    {
+      "id": "q35",
+      "question": "What is the monthly premium for US Medicare Part D prescription drug plans in 2026?",
+      "expected_doc": null,
+      "expected_section": null,
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "pmjay_ab_operational_guidelines.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_protection_of_policyholders_interests_2024.md"
+      ],
+      "retrieved_sections": [
+        "1. Grace Period and Continuity Benefits",
+        "6. INITIAL WAITING PERIOD AND STANDARD PERMANENT EXCLUSIONS",
+        "4. Pre-Hospitalization and Post-Hospitalization Benefits",
+        "3. Policy Cancellation and Premium Refund",
+        "5. Insurance Ombudsman Jurisdiction"
+      ],
+      "best_score": 0.23,
+      "abstained": true,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "keyword_coverage": null,
+      "abstention_correct": true,
+      "faithfulness_score": null,
+      "answer": "I could not find this in the indexed documents."
+    },
+    {
+      "id": "q36",
+      "question": "What is the income tax rate on cryptocurrency capital gains in India under Section 115BBH?",
+      "expected_doc": null,
+      "expected_section": null,
+      "retrieved_docs": [
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "pmjay_ab_operational_guidelines.md",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "pmjay_ab_operational_guidelines.md"
+      ],
+      "retrieved_sections": [
+        "1. OPERATIVE CLAUSE AND SUM INSURED OPTIONS",
+        "2. Beneficiary Eligibility and Senior Citizen Expansion",
+        "6. Nomination and Beneficial Nominee Rules",
+        "7. Claim Settlement, Repudiation, and Claims Review Committee",
+        "4. Pre-Hospitalization and Post-Hospitalization Benefits"
+      ],
+      "best_score": 0.0511,
+      "abstained": true,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "keyword_coverage": null,
+      "abstention_correct": true,
+      "faithfulness_score": null,
+      "answer": "I could not find this in the indexed documents."
+    },
+    {
+      "id": "q37",
+      "question": "What is the UK Financial Conduct Authority minimum third-party motor insurance limit?",
+      "expected_doc": null,
+      "expected_section": null,
+      "retrieved_docs": [
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "pmjay_ab_operational_guidelines.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+        "1. Scheme Overview and Coverage Limit",
+        "1. Grace Period and Continuity Benefits",
+        "1. OPERATIVE CLAUSE AND SUM INSURED OPTIONS",
+        "7. Claim Settlement, Repudiation, and Claims Review Committee"
+      ],
+      "best_score": 0.3833,
+      "abstained": false,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "keyword_coverage": null,
+      "abstention_correct": false,
+      "faithfulness_score": null,
+      "answer": "Based on Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model) (2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS), In-patient hospitalization requires admission as an inpatient for a minimum period of 24 consecutive hours, except for listed Day Care procedures where 24-hour hospitalization is not clinically required due to technological advancement [1]."
+    },
+    {
+      "id": "q38",
+      "question": "What is the current NAV of HDFC Life Click 2 Wealth ULIP equity fund?",
+      "expected_doc": null,
+      "expected_section": null,
+      "retrieved_docs": [
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_protection_of_policyholders_interests_2024.md",
+        "irdai_health_insurance_master_circular_2024.md"
+      ],
+      "retrieved_sections": [
+        "2. Proposal Form and Underwriting Turnaround Time",
+        "7. Claim Settlement, Repudiation, and Claims Review Committee",
+        "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+        "6. Nomination and Beneficial Nominee Rules",
+        "2. Free Look Period"
+      ],
+      "best_score": 0.046,
+      "abstained": true,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "keyword_coverage": null,
+      "abstention_correct": true,
+      "faithfulness_score": null,
+      "answer": "I could not find this in the indexed documents."
+    },
+    {
+      "id": "q39",
+      "question": "How much Schengen travel visa fee applies for Indian applicants in 2026?",
+      "expected_doc": null,
+      "expected_section": null,
+      "retrieved_docs": [
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "irdai_health_insurance_master_circular_2024.md",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "standard_health_policy_wordings_arogya_sanjeevani.txt",
+        "pmjay_ab_operational_guidelines.md"
+      ],
+      "retrieved_sections": [
+        "6. INITIAL WAITING PERIOD AND STANDARD PERMANENT EXCLUSIONS",
+        "3. Moratorium Period",
+        "4. AMBULANCE AND CATARACT SUB-LIMITS",
+        "1. OPERATIVE CLAUSE AND SUM INSURED OPTIONS",
+        "2. Beneficiary Eligibility and Senior Citizen Expansion"
+      ],
+      "best_score": 0.0511,
+      "abstained": true,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "keyword_coverage": null,
+      "abstention_correct": true,
+      "faithfulness_score": null,
+      "answer": "I could not find this in the indexed documents."
+    },
+    {
+      "id": "q40",
+      "question": "What is the EMI interest rate for SBI personal car loans over 7 years?",
+      "expected_doc": null,
+      "expected_section": null,
+      "retrieved_docs": [
+        "irdai_health_insurance_master_circular_2024.md",
+        "pmjay_ab_operational_guidelines.md",
+        "irdai_health_insurance_master_circular_2024.md",
+        "pmjay_ab_operational_guidelines.md",
+        "irdai_protection_of_policyholders_interests_2024.md"
+      ],
+      "retrieved_sections": [
+        "7. Claim Settlement, Repudiation, and Claims Review Committee",
+        "2. Beneficiary Eligibility and Senior Citizen Expansion",
+        "3. Moratorium Period",
+        "4. Pre-Hospitalization and Post-Hospitalization Benefits",
+        "5. Insurance Ombudsman Jurisdiction"
+      ],
+      "best_score": 0.345,
+      "abstained": false,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "hit_at_5": null,
+      "reciprocal_rank": null,
+      "keyword_coverage": null,
+      "abstention_correct": false,
+      "faithfulness_score": null,
+      "answer": "Based on IRDAI Master Circular on Health Insurance Business (2024) (7. Claim Settlement, Repudiation, and Claims Review Committee), For reimbursement claims, the insurer must settle or reject the claim within 15 days from the date of receipt of the last necessary document [1]."
+    }
+  ]
+}

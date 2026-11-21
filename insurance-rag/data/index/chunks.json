@@ -1,0 +1,236 @@
+[
+  {
+    "chunk_id": "irdai_health_insurance_master_circular_2024_md::c0000",
+    "text": "Under the IRDAI Master Circular on Health Insurance Business (May 2024), insurers must offer a grace period for renewal of health insurance policies without loss of continuity benefits. For policies with a monthly premium payment mode, the grace period is 15 days. For policies with quarterly, half-yearly, or annual premium payment modes, the grace period is 30 days.\n\nIf the renewal premium is paid within the applicable grace period, all continuity benefits\u2014including waiting periods already served and accrued cumulative bonus\u2014remain intact. However, coverage is not available for the break period during which the policy remained unpaid unless the policy terms explicitly specify otherwise.",
+    "title": "IRDAI Master Circular on Health Insurance Business (2024)",
+    "section": "1. Grace Period and Continuity Benefits",
+    "source": "irdai_health_insurance_master_circular_2024.md",
+    "chunk_index": 0,
+    "char_count": 695
+  },
+  {
+    "chunk_id": "irdai_health_insurance_master_circular_2024_md::c0001",
+    "text": "Every new retail health insurance policy (other than those with a tenure of less than one year) carries a mandatory free look period of 30 days from the date of receipt of the policy document, whether received electronically or in physical form.\n\nDuring the free look period, the policyholder may review the terms and conditions and request cancellation if they disagree with any clause. Where no claim has been made during the free look period, the insurer must refund the entire premium paid, deducting only expenses incurred on medical examination of the proposer and stamp duty charges, if any.",
+    "title": "IRDAI Master Circular on Health Insurance Business (2024)",
+    "section": "2. Free Look Period",
+    "source": "irdai_health_insurance_master_circular_2024.md",
+    "chunk_index": 1,
+    "char_count": 598
+  },
+  {
+    "chunk_id": "irdai_health_insurance_master_circular_2024_md::c0002",
+    "text": "After completion of 60 continuous months (5 years) of coverage under a health insurance policy\u2014including portability and migration across insurers\u2014no policy and no claim can be called into question or contested by the insurer on grounds of non-disclosure or misrepresentation, except in cases of established fraud. This 60-month period is known as the Moratorium Period.\n\nThe moratorium period applies to the base sum insured and any enhanced sum insured only after 60 continuous months have elapsed from the date of such enhancement. Any claim arising after the moratorium period cannot be repudiated for undisclosed pre-existing conditions unless the insurer proves fraud.",
+    "title": "IRDAI Master Circular on Health Insurance Business (2024)",
+    "section": "3. Moratorium Period",
+    "source": "irdai_health_insurance_master_circular_2024.md",
+    "chunk_index": 2,
+    "char_count": 674
+  },
+  {
+    "chunk_id": "irdai_health_insurance_master_circular_2024_md::c0003",
+    "text": "A Pre-Existing Disease (PED) is defined as any condition, ailment, injury, or disease diagnosed by a physician, or for which medical advice or treatment was recommended by or received from a physician, within 36 months prior to the effective date of the policy issued by the insurer or its reinstatement.\n\nThe maximum waiting period that an insurer may impose for Pre-Existing Diseases is 36 months from the inception of the first policy. For specified slow-growing ailments and procedures (such as cataract, hernia, joint replacement, or benign prostatic hypertrophy), insurers may impose a specific waiting period not exceeding 24 months, unless the condition qualifies as a PED.",
+    "title": "IRDAI Master Circular on Health Insurance Business (2024)",
+    "section": "4. Pre-Existing Disease (PED) and Specific Waiting Periods",
+    "source": "irdai_health_insurance_master_circular_2024.md",
+    "chunk_index": 3,
+    "char_count": 681
+  },
+  {
+    "chunk_id": "irdai_health_insurance_master_circular_2024_md::c0004",
+    "text": "Insurers must decide on requests for cashless pre-authorization within 1 hour of receipt of the request from the network hospital. Additionally, insurers must grant final authorization for discharge within 3 hours of receipt of the discharge authorization request from the hospital.\n\nIn no case shall a policyholder be made to wait at the hospital for discharge beyond 3 hours due to delay from the insurer's side. If any additional hospital charges accrue solely due to delay beyond the 3-hour final authorization window, the insurer is liable to bear such extra charges from the shareholder's fund. Insurers are encouraged to achieve 100% cashless claim settlement in a time-bound manner.",
+    "title": "IRDAI Master Circular on Health Insurance Business (2024)",
+    "section": "5. Cashless Claim Turnaround Time",
+    "source": "irdai_health_insurance_master_circular_2024.md",
+    "chunk_index": 4,
+    "char_count": 690
+  },
+  {
+    "chunk_id": "irdai_health_insurance_master_circular_2024_md::c0005",
+    "text": "A policyholder covered under an indemnity health insurance policy has the right to port the policy to another general or health insurer at the time of renewal. The policyholder must submit the portability request to the new insurer at least 45 days before the expiry date of the existing policy, and not earlier than 60 days before renewal.\n\nUpon successful portability, the new insurer must give credit for the waiting periods already served under the previous policy (including PED, specific waiting periods, and moratorium period) as well as any accrued No Claim Bonus, up to the expiring sum insured. Migration within the same insurer from one health product to another or from a group policy to an individual policy follows the same continuity credit rules.",
+    "title": "IRDAI Master Circular on Health Insurance Business (2024)",
+    "section": "6. Health Insurance Portability and Migration",
+    "source": "irdai_health_insurance_master_circular_2024.md",
+    "chunk_index": 5,
+    "char_count": 762
+  },
+  {
+    "chunk_id": "irdai_health_insurance_master_circular_2024_md::c0006",
+    "text": "For reimbursement claims, the insurer must settle or reject the claim within 15 days from the date of receipt of the last necessary document. In the event of delay in settlement beyond the prescribed timeline, the insurer must pay interest to the claimant at the prevailing Bank Rate plus 2% per annum from the date of receipt of the last necessary document.\n\nNo claim shall be repudiated by an insurer without formal approval from a three-member Claims Review Committee (CRC) constituted by the insurer. Claims must not be rejected on purely technical grounds such as delayed intimation if the delay was due to unavoidable circumstances and the claim is otherwise genuine.",
+    "title": "IRDAI Master Circular on Health Insurance Business (2024)",
+    "section": "7. Claim Settlement, Repudiation, and Claims Review Committee",
+    "source": "irdai_health_insurance_master_circular_2024.md",
+    "chunk_index": 6,
+    "char_count": 673
+  },
+  {
+    "chunk_id": "irdai_health_insurance_master_circular_2024_md::c0007",
+    "text": "All retail health insurance policies are guaranteed to be renewable lifelong, except on grounds of established fraud, non-disclosure, or misrepresentation by the insured. An insurer cannot refuse renewal or apply individual claim-based premium loading solely because the policyholder made a claim in the preceding policy year.\n\nInsurers must provide coverage for AYUSH treatments (Ayurveda, Yoga and Naturopathy, Unani, Siddha, and Homeopathy) up to the full Sum Insured without any discriminatory sub-limits compared to allopathic treatments, provided the treatment is taken in a recognized or accredited AYUSH hospital or day-care centre.",
+    "title": "IRDAI Master Circular on Health Insurance Business (2024)",
+    "section": "8. Lifelong Renewability and AYUSH Coverage",
+    "source": "irdai_health_insurance_master_circular_2024.md",
+    "chunk_index": 7,
+    "char_count": 640
+  },
+  {
+    "chunk_id": "irdai_protection_of_policyholders_interests_2024_md::c0000",
+    "text": "Under the IRDAI (Protection of Policyholders' Interests, Operations and Allied Matters of Insurers) Regulations, 2024, every insurer must provide a concise Customer Information Sheet (CIS) along with the policy document in simple, accessible language.\n\nThe CIS must clearly summarize the policy name, sum insured, coverage highlights, waiting periods, sub-limits, co-payment requirements, deductibles, permanent exclusions, claim submission process, free look period, portability options, and grievance redressal contact details. Insurers must obtain acknowledgment of the CIS from the policyholder where applicable.",
+    "title": "IRDAI Protection of Policyholders' Interests Regulations (2024)",
+    "section": "1. Customer Information Sheet (CIS)",
+    "source": "irdai_protection_of_policyholders_interests_2024.md",
+    "chunk_index": 0,
+    "char_count": 616
+  },
+  {
+    "chunk_id": "irdai_protection_of_policyholders_interests_2024_md::c0001",
+    "text": "Every insurer must process a proposal for insurance and communicate its underwriting decision in writing within 15 days from the date of receipt of the proposal or any additional information requested. If the insurer calls for medical reports or further details, the request must be communicated promptly.\n\nA copy of the completed proposal form\u2014whether physical or electronic\u2014must be furnished to the policyholder free of charge within 30 days of acceptance of the proposal. Any material information disclosed in the proposal form forms the basis of the insurance contract.",
+    "title": "IRDAI Protection of Policyholders' Interests Regulations (2024)",
+    "section": "2. Proposal Form and Underwriting Turnaround Time",
+    "source": "irdai_protection_of_policyholders_interests_2024.md",
+    "chunk_index": 1,
+    "char_count": 573
+  },
+  {
+    "chunk_id": "irdai_protection_of_policyholders_interests_2024_md::c0002",
+    "text": "A policyholder may cancel a retail health or general insurance policy at any time by giving 7 days' written notice to the insurer. For policies with a tenure of more than 1 year where no claim has been reported, the insurer must refund the proportionate premium for the unexpired policy period on a pro-rata basis for multi-year policies or as per the specified refund scale.\n\nAn insurer may cancel a policy only on grounds of established fraud, misrepresentation, or non-disclosure of material facts, and must provide at least 15 days' written notice to the policyholder before cancellation takes effect.",
+    "title": "IRDAI Protection of Policyholders' Interests Regulations (2024)",
+    "section": "3. Policy Cancellation and Premium Refund",
+    "source": "irdai_protection_of_policyholders_interests_2024.md",
+    "chunk_index": 2,
+    "char_count": 605
+  },
+  {
+    "chunk_id": "irdai_protection_of_policyholders_interests_2024_md::c0003",
+    "text": "Every insurer must establish an accessible Grievance Redressal Officer (GRO) at its corporate and regional offices and integrate with IRDAI's Integrated Grievance Management System (IGMS), known as Bima Bharosa. Upon receiving a complaint, the insurer must send a written acknowledgment to the complainant within 3 working days.\n\nThe insurer must resolve the grievance and send a final response within 14 days from the date of receipt of the complaint. If the insurer rejects the complaint or fails to respond within 30 days, the policyholder may escalate the matter to the Insurance Ombudsman.",
+    "title": "IRDAI Protection of Policyholders' Interests Regulations (2024)",
+    "section": "4. Grievance Redressal Mechanism and Bima Bharosa",
+    "source": "irdai_protection_of_policyholders_interests_2024.md",
+    "chunk_index": 3,
+    "char_count": 594
+  },
+  {
+    "chunk_id": "irdai_protection_of_policyholders_interests_2024_md::c0004",
+    "text": "Under the Insurance Ombudsman Rules, 2017 (as amended), an individual policyholder, legal heir, or nominee may file a complaint with the Insurance Ombudsman free of cost\u2014no lawyer is required. The complaint must be filed within 1 year from the date of rejection of the representation by the insurer or after 30 days of no response.\n\nThe Insurance Ombudsman has pecuniary jurisdiction to award compensation up to Rs. 50 lakh (Rupees Fifty Lakhs), including any ex-gratia payment or interest. Complaints may cover partial or total repudiation of claims, delay in claim settlement, premium disputes, misrepresentation of policy terms, or non-issuance of policy documents.",
+    "title": "IRDAI Protection of Policyholders' Interests Regulations (2024)",
+    "section": "5. Insurance Ombudsman Jurisdiction",
+    "source": "irdai_protection_of_policyholders_interests_2024.md",
+    "chunk_index": 4,
+    "char_count": 668
+  },
+  {
+    "chunk_id": "irdai_protection_of_policyholders_interests_2024_md::c0005",
+    "text": "Under Section 39 of the Insurance Act, 1938, the holder of a life insurance policy on their own life may nominate one or more persons to whom policy moneys shall be payable in the event of death. Where the policyholder nominates their parents, spouse, or children (or any of them), such nominees are treated as beneficial nominees, meaning they are entitled to receive the policy proceeds beneficially to the exclusion of other legal heirs, unless expressly directed otherwise.\n\nFor general and health insurance policies, insurers must capture nominee details at the proposal stage so that any admissible claim amounts payable after the death of the insured are settled smoothly to the designated nominee or legal heir.",
+    "title": "IRDAI Protection of Policyholders' Interests Regulations (2024)",
+    "section": "6. Nomination and Beneficial Nominee Rules",
+    "source": "irdai_protection_of_policyholders_interests_2024.md",
+    "chunk_index": 5,
+    "char_count": 719
+  },
+  {
+    "chunk_id": "pmjay_ab_operational_guidelines_md::c0000",
+    "text": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) is India's flagship publicly funded health assurance scheme implemented by the National Health Authority (NHA). It provides cashless health coverage of up to Rs. 5,00,000 (Rupees Five Lakhs) per eligible family per policy year on a family floater basis for secondary and tertiary care hospitalization.\n\nThe Rs. 5,00,000 cover can be utilized by one or more members of the beneficiary family in a single policy year across empanelled public and private hospitals.",
+    "title": "Ayushman Bharat \u2013 Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) Operational Guidelines",
+    "section": "1. Scheme Overview and Coverage Limit",
+    "source": "pmjay_ab_operational_guidelines.md",
+    "chunk_index": 0,
+    "char_count": 523
+  },
+  {
+    "chunk_id": "pmjay_ab_operational_guidelines_md::c0001",
+    "text": "Eligibility for AB PM-JAY was originally determined using the Socio-Economic Caste Census (SECC) 2011 database based on deprivation criteria for rural households and defined occupational categories for urban households, along with families covered under the erstwhile Rashtriya Swasthya Bima Yojana (RSBY).\n\nThere is no cap on family size, age, or gender under AB PM-JAY, ensuring all eligible family members including newborns and elderly dependents are covered. Additionally, under the senior citizen expansion (Ayushman Vaya Vandana Card), all citizens aged 70 years and above\u2014irrespective of socio-economic status or income\u2014are entitled to Rs. 5,00,000 annual top-up coverage, shared among eligible 70+ members in a family.",
+    "title": "Ayushman Bharat \u2013 Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) Operational Guidelines",
+    "section": "2. Beneficiary Eligibility and Senior Citizen Expansion",
+    "source": "pmjay_ab_operational_guidelines.md",
+    "chunk_index": 1,
+    "char_count": 727
+  },
+  {
+    "chunk_id": "pmjay_ab_operational_guidelines_md::c0002",
+    "text": "Under AB PM-JAY, all pre-existing diseases and medical conditions are covered from Day 1 of enrollment. There is zero waiting period for pre-existing ailments, chronic conditions, or specific surgeries under the scheme.",
+    "title": "Ayushman Bharat \u2013 Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) Operational Guidelines",
+    "section": "3. Pre-Existing Diseases and Waiting Period",
+    "source": "pmjay_ab_operational_guidelines.md",
+    "chunk_index": 2,
+    "char_count": 219
+  },
+  {
+    "chunk_id": "pmjay_ab_operational_guidelines_md::c0003",
+    "text": "Every admitted inpatient package under AB PM-JAY covers up to 3 days of pre-hospitalization expenses (including diagnostics and medicines prior to admission) and up to 15 days of post-hospitalization expenses (including follow-up medicines and consultations after discharge) as part of the defined Health Benefit Package (HBP) rate.",
+    "title": "Ayushman Bharat \u2013 Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) Operational Guidelines",
+    "section": "4. Pre-Hospitalization and Post-Hospitalization Benefits",
+    "source": "pmjay_ab_operational_guidelines.md",
+    "chunk_index": 3,
+    "char_count": 332
+  },
+  {
+    "chunk_id": "pmjay_ab_operational_guidelines_md::c0004",
+    "text": "Treatments are reimbursed to empanelled healthcare providers (EHCPs) based on standardized Health Benefit Package (HBP) rates covering medical, surgical, daycare, and follow-up procedures. Beneficiaries pay zero co-payment, zero deductible, and zero user fees; empanelled hospitals are strictly prohibited from balance billing or charging beneficiaries extra money for covered package procedures.\n\nAB PM-JAY provides seamless national portability: an eligible beneficiary from one state can avail cashless hospitalization at any empanelled hospital in any other participating state or Union Territory across India by verifying their identity via Aadhaar e-KYC and their Ayushman Card.",
+    "title": "Ayushman Bharat \u2013 Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) Operational Guidelines",
+    "section": "5. Health Benefit Packages, Zero Co-Payment, and National Portability",
+    "source": "pmjay_ab_operational_guidelines.md",
+    "chunk_index": 4,
+    "char_count": 684
+  },
+  {
+    "chunk_id": "pmjay_ab_operational_guidelines_md::c0005",
+    "text": "Beneficiary identity is verified at the hospital helpdesk (Pradhan Mantri Arogya Mitra) using the Beneficiary Identification System (BIS) through Aadhaar-based biometric, OTP, or iris authentication to generate the Ayushman Card.\n\nBeneficiaries experiencing denial of cashless care, overcharging, or service quality issues can lodge complaints via the 24x7 toll-free national helpline 14555 or the Centralized Grievance Redressal Management System (CGRMS). Grievances are handled across a three-tier structure\u2014District Grievance Redressal Nodal Officer (DGRNO), State Grievance Redressal Officer (SGRO), and National Health Authority (NHA)\u2014with a standard resolution timeline of 15 days.",
+    "title": "Ayushman Bharat \u2013 Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) Operational Guidelines",
+    "section": "6. Beneficiary Verification and Grievance Redressal",
+    "source": "pmjay_ab_operational_guidelines.md",
+    "chunk_index": 5,
+    "char_count": 687
+  },
+  {
+    "chunk_id": "standard_health_policy_wordings_arogya_sanjeevani_txt::c0000",
+    "text": "This Policy is a standard individual and family floater health insurance contract issued in India. The available Sum Insured options range from Rs. 50,000 to Rs. 10,00,000 in multiples of Rs. 50,000. The policy covers reasonable and customary medical expenses incurred by the Insured Person during the Policy Period for medically necessary hospitalization in India.",
+    "title": "Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model)",
+    "section": "1. OPERATIVE CLAUSE AND SUM INSURED OPTIONS",
+    "source": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+    "chunk_index": 0,
+    "char_count": 365
+  },
+  {
+    "chunk_id": "standard_health_policy_wordings_arogya_sanjeevani_txt::c0001",
+    "text": "In-patient hospitalization requires admission as an inpatient for a minimum period of 24 consecutive hours, except for listed Day Care procedures where 24-hour hospitalization is not clinically required due to technological advancement.\n\nRoom Rent, Boarding, and Nursing Expenses as provided by the Hospital are payable up to 2% of the Sum Insured per day, subject to a maximum of Rs. 5,000 per day. Intensive Care Unit (ICU) or Intensive Cardiac Care Unit (ICCU) charges are payable up to 5% of the Sum Insured per day, subject to a maximum of Rs. 10,000 per day.\n\nIf the Insured Person occupies a room category higher than the eligible room rent limit, proportionate deduction will apply to all associated medical expenses (such as surgeon fees, consultant charges, and diagnostic tests), except the cost of medicines and consumables billed at MRP.",
+    "title": "Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model)",
+    "section": "2. IN-PATIENT HOSPITALIZATION AND ROOM RENT SUB-LIMITS",
+    "source": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+    "chunk_index": 1,
+    "char_count": 850
+  },
+  {
+    "chunk_id": "standard_health_policy_wordings_arogya_sanjeevani_txt::c0002",
+    "text": "Medical expenses incurred immediately prior to the date of hospitalization are covered up to 30 days preceding admission, provided such expenses are directly related to the ailment for which hospitalization was subsequently required.\n\nMedical expenses incurred immediately after discharge from the hospital are covered up to 60 days from the date of discharge, provided they relate directly to the same illness or injury for which the inpatient claim was admitted.",
+    "title": "Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model)",
+    "section": "3. PRE-HOSPITALIZATION AND POST-HOSPITALIZATION EXPENSES",
+    "source": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+    "chunk_index": 2,
+    "char_count": 464
+  },
+  {
+    "chunk_id": "standard_health_policy_wordings_arogya_sanjeevani_txt::c0003",
+    "text": "Road ambulance charges incurred for transporting the Insured Person to the nearest hospital in an emergency are covered up to a maximum of Rs. 2,000 per hospitalization.\n\nExpenses incurred for treatment of Cataract are subject to a sub-limit of up to 25% of the Sum Insured or Rs. 40,000 per eye, whichever is lower, in each policy year.",
+    "title": "Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model)",
+    "section": "4. AMBULANCE AND CATARACT SUB-LIMITS",
+    "source": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+    "chunk_index": 3,
+    "char_count": 337
+  },
+  {
+    "chunk_id": "standard_health_policy_wordings_arogya_sanjeevani_txt::c0004",
+    "text": "The Sum Insured shall be increased by 5% in respect of each claim-free policy year, subject to a maximum cumulative accumulation of 50% of the basic Sum Insured. If a claim is made in any particular year, the accrued Cumulative Bonus will be reduced by 5% at the subsequent renewal, without reducing the base Sum Insured.\n\nEvery admissible claim under this standard policy is subject to a mandatory co-payment of 5% to be borne by the Insured Person, irrespective of the age of the insured at entry or renewal.",
+    "title": "Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model)",
+    "section": "5. CUMULATIVE BONUS AND CO-PAYMENT",
+    "source": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+    "chunk_index": 4,
+    "char_count": 510
+  },
+  {
+    "chunk_id": "standard_health_policy_wordings_arogya_sanjeevani_txt::c0005",
+    "text": "An initial waiting period of 30 days applies from the first policy inception date for any illness other than an accidental injury. Any injury resulting solely from an accident is covered from Day 1.\n\nStandard Permanent Exclusions include: (a) Cosmetic or plastic surgery unless necessitated due to an accident, burn, or cancer reconstruction; (b) Participation in hazardous or adventure sports as a professional or without safety compliance; (c) Intentional self-injury, suicide, or attempted suicide; (d) War, invasion, act of foreign enemy, or nuclear radiation perils; (e) Treatment for alcoholism, drug or substance abuse, or any addictive condition; (f) Unproven or experimental treatments not recognized by standard medical protocols; (g) Maternity expenses, infertility treatment, and routine dental or optical expenses unless arising from an accident requiring hospitalization.",
+    "title": "Standard Health Insurance Policy Wordings (Arogya Sanjeevani Model)",
+    "section": "6. INITIAL WAITING PERIOD AND STANDARD PERMANENT EXCLUSIONS",
+    "source": "standard_health_policy_wordings_arogya_sanjeevani.txt",
+    "chunk_index": 5,
+    "char_count": 885
+  }
+]

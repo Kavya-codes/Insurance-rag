@@ -1,0 +1,7 @@
+{
+  "chunks_count": 26,
+  "embedding_dim": 128,
+  "embeddings_format": "json",
+  "rrf_k": 60,
+  "candidate_top_k": 20
+}

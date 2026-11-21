@@ -1,0 +1,8 @@
+{
+  "name": "Indian Insurance RAG",
+  "description": "Grounded Retrieval-Augmented Generation system for Indian insurance regulations, standard policy wordings, and AB PM-JAY guidelines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

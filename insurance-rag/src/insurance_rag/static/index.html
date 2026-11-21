@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian Insurance Policy Lookup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f8fafc;
+        --surface: #ffffff;
+        --surface-muted: #f1f5f9;
+        --ink: #0f172a;
+        --ink-muted: #475569;
+        --border: #e2e8f0;
+        --accent: #0f766e;
+        --accent-hover: #0d5e58;
+        --accent-soft: #f0fdfa;
+        --warn-bg: #fffbeb;
+        --warn-border: #fde68a;
+        --warn-ink: #92400e;
+        --radius: 14px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .topbar {
+        background: var(--surface);
+        border-bottom: 1px solid var(--border);
+        padding: 14px 16px;
+      }
+
+      .topbar-inner {
+        max-width: 920px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+      }
+
+      .brand {
+        font-size: 1.05rem;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+        color: var(--ink);
+        white-space: nowrap;
+      }
+
+      .topbar-meta {
+        font-size: 0.8125rem;
+        color: var(--ink-muted);
+        white-space: nowrap;
+      }
+
+      main {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 20px 16px 48px;
+      }
+
+      .hero {
+        margin-bottom: 20px;
+      }
+
+      .hero h1 {
+        margin: 0 0 6px;
+        font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        text-wrap: balance;
+      }
+
+      .hero p {
+        margin: 0;
+        color: var(--ink-muted);
+        font-size: 0.95rem;
+        max-width: 65ch;
+      }
+
+      .composer {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 16px;
+        margin-bottom: 16px;
+      }
+
+      .composer label {
+        display: block;
+        font-size: 0.875rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+
+      .composer-row {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      @media (min-width: 640px) {
+        .composer-row {
+          flex-direction: row;
+          align-items: flex-end;
+        }
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 54px;
+        max-height: 160px;
+        resize: vertical;
+        padding: 12px 14px;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        font-family: inherit;
+        font-size: 1rem;
+        color: var(--ink);
+        background: var(--bg);
+      }
+
+      textarea:focus {
+        outline: 2px solid var(--accent);
+        outline-offset: 1px;
+        background: var(--surface);
+      }
+
+      .ask-btn {
+        min-height: 48px;
+        padding: 0 22px;
+        border: 0;
+        border-radius: 10px;
+        background: var(--accent);
+        color: #ffffff;
+        font-family: inherit;
+        font-size: 0.95rem;
+        font-weight: 600;
+        cursor: pointer;
+        white-space: nowrap;
+        flex-shrink: 0;
+        transition: background-color 160ms ease;
+      }
+
+      .ask-btn:hover:not(:disabled) {
+        background: var(--accent-hover);
+      }
+
+      .ask-btn:disabled {
+        opacity: 0.65;
+        cursor: not-allowed;
+      }
+
+      .samples {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .sample-btn {
+        min-height: 40px;
+        padding: 8px 12px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--surface-muted);
+        color: var(--ink);
+        font-family: inherit;
+        font-size: 0.8125rem;
+        text-align: left;
+        cursor: pointer;
+        transition: border-color 150ms ease, background-color 150ms ease;
+      }
+
+      .sample-btn:hover {
+        border-color: var(--accent);
+        background: var(--accent-soft);
+      }
+
+      .result-card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 20px 16px;
+        display: none;
+      }
+
+      .result-card.visible {
+        display: block;
+      }
+
+      .abstain-notice {
+        background: var(--warn-bg);
+        border: 1px solid var(--warn-border);
+        color: var(--warn-ink);
+        border-radius: 10px;
+        padding: 12px 14px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin-bottom: 12px;
+      }
+
+      .error-notice {
+        background: #fef2f2;
+        border: 1px solid #fecaca;
+        color: #991b1b;
+        border-radius: 10px;
+        padding: 12px 14px;
+        font-size: 0.9rem;
+      }
+
+      .result-toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding-bottom: 12px;
+        margin-bottom: 14px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .result-label {
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--ink-muted);
+      }
+
+      .result-actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .export-btn {
+        min-height: 40px;
+        padding: 8px 14px;
+        border: 1px solid #99f6e4;
+        border-radius: 8px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font-family: inherit;
+        font-size: 0.8125rem;
+        font-weight: 600;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .export-btn:hover {
+        background: #ccfbf1;
+      }
+
+      .share-btn {
+        min-height: 40px;
+        padding: 8px 14px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--surface-muted);
+        color: var(--ink);
+        font-family: inherit;
+        font-size: 0.8125rem;
+        font-weight: 600;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .share-btn:hover {
+        background: #e2e8f0;
+      }
+
+      .share-bar {
+        display: none;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 14px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        border: 1px solid #99f6e4;
+        background: var(--accent-soft);
+        font-size: 0.8rem;
+      }
+
+      .share-bar.visible {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .share-bar input {
+        flex: 1;
+        min-width: 180px;
+        padding: 6px 8px;
+        border: 1px solid #99f6e4;
+        border-radius: 6px;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 0.78rem;
+        color: var(--ink);
+        background: var(--surface);
+      }
+
+      .answer-row {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      @media (max-width: 640px) {
+        .answer-row {
+          flex-direction: column;
+        }
+      }
+
+      .answer-text {
+        flex: 1;
+        min-width: 0;
+        font-size: 1rem;
+        line-height: 1.65;
+        margin: 0;
+        white-space: pre-wrap;
+      }
+
+      .copy-plain-btn {
+        min-height: 40px;
+        padding: 8px 12px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--surface-muted);
+        color: var(--ink);
+        font-family: inherit;
+        font-size: 0.8125rem;
+        font-weight: 600;
+        cursor: pointer;
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+
+      .copy-plain-btn:hover {
+        background: #e2e8f0;
+      }
+
+      .cite-link {
+        display: inline-block;
+        padding: 0 5px;
+        margin: 0 1px;
+        border-radius: 4px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 0.85em;
+        font-weight: 500;
+        text-decoration: none;
+        cursor: pointer;
+        border: 1px solid #ccfbf1;
+      }
+
+      .disclaimer {
+        margin-top: 16px;
+        padding-top: 12px;
+        border-top: 1px solid var(--border);
+        font-size: 0.8125rem;
+        color: var(--ink-muted);
+      }
+
+      .sources-heading {
+        margin: 24px 0 10px;
+        font-size: 0.95rem;
+        font-weight: 700;
+      }
+
+      .source-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      details.source-item {
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        background: var(--bg);
+        overflow: hidden;
+      }
+
+      details.source-item.highlighted {
+        border-color: var(--accent);
+        background: var(--accent-soft);
+      }
+
+      details.source-item summary {
+        list-style: none;
+        min-height: 48px;
+        padding: 12px 14px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      details.source-item summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .source-title-wrap {
+        min-width: 0;
+      }
+
+      .source-title {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: var(--ink);
+      }
+
+      .source-meta {
+        font-size: 0.8rem;
+        color: var(--ink-muted);
+        margin-top: 2px;
+        word-break: break-word;
+      }
+
+      .source-score {
+        font-family: "IBM Plex Mono", monospace;
+        font-variant-numeric: tabular-nums;
+        font-size: 0.78rem;
+        color: var(--ink-muted);
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+
+      .source-body {
+        padding: 12px 14px 14px;
+        border-top: 1px solid var(--border);
+        background: var(--surface);
+        font-size: 0.875rem;
+        color: var(--ink);
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <span class="brand">Indian Insurance RAG</span>
+        <span class="topbar-meta" id="indexStatus">Checking index...</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Ask about Indian insurance rules and policy wordings</h1>
+        <p>
+          Answers are generated strictly from your indexed IRDAI circulars, policy wordings, and
+          PM-JAY guidelines with inline citations.
+        </p>
+      </section>
+
+      <section class="composer">
+        <form id="askForm">
+          <label for="questionInput">Your question</label>
+          <div class="composer-row">
+            <textarea
+              id="questionInput"
+              name="question"
+              placeholder="e.g., How fast must an insurer approve cashless discharge?"
+              required
+            ></textarea>
+            <button type="submit" class="ask-btn" id="askBtn">Ask question</button>
+          </div>
+        </form>
+
+        <div class="samples" aria-label="Example questions">
+          <button
+            type="button"
+            class="sample-btn"
+            data-q="What is the moratorium period in health insurance?"
+          >
+            Moratorium period rules
+          </button>
+          <button
+            type="button"
+            class="sample-btn"
+            data-q="How soon must I apply to switch my health insurer at renewal?"
+          >
+            Portability notice period
+          </button>
+          <button
+            type="button"
+            class="sample-btn"
+            data-q="What is the annual coverage and co-payment under AB PM-JAY?"
+          >
+            AB PM-JAY coverage
+          </button>
+          <button
+            type="button"
+            class="sample-btn"
+            data-q="What is the monthly premium for US Medicare Part D?"
+          >
+            Out-of-scope test
+          </button>
+        </div>
+      </section>
+
+      <section class="result-card" id="resultCard" aria-live="polite"></section>
+    </main>
+
+    <script>
+      const form = document.getElementById("askForm");
+      const input = document.getElementById("questionInput");
+      const askBtn = document.getElementById("askBtn");
+      const resultCard = document.getElementById("resultCard");
+      const indexStatus = document.getElementById("indexStatus");
+
+      async function checkHealth() {
+        try {
+          const res = await fetch("/health");
+          if (!res.ok) throw new Error("Health check failed");
+          const data = await res.json();
+          indexStatus.textContent = data.index_loaded
+            ? `${data.chunks_count} indexed passages`
+            : "Index not loaded";
+        } catch {
+          indexStatus.textContent = "Server unavailable";
+        }
+      }
+
+      function escapeHtml(str) {
+        return str
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+      }
+
+      function renderAnswerWithCitations(answer) {
+        const escaped = escapeHtml(answer);
+        return escaped.replace(/\[(\d+)\]/g, (_, num) => {
+          return `<button type="button" class="cite-link" data-cite="${num}">[${num}]</button>`;
+        });
+      }
+
+      let lastQuestion = "";
+      let lastResponse = null;
+
+      function buildAnswerMarkdown(questionText, data) {
+        const lines = [
+          "# Indian Insurance RAG — Documentation Export",
+          "",
+          `- **Generated:** ${new Date().toISOString()}`,
+          `- **Status:** ${data.abstained ? "Abstained (insufficient evidence)" : "Grounded Answer"}`,
+          `- **Best Retrieval Score:** ${Number(data.best_score || 0).toFixed(3)}`,
+          "",
+          "## Question",
+          "",
+          questionText || "(Not recorded)",
+          "",
+          "## Answer",
+          "",
+          data.answer || "",
+          "",
+        ];
+        if (Array.isArray(data.sources) && data.sources.length > 0) {
+          lines.push("## Cited Sources", "");
+          for (const src of data.sources) {
+            lines.push(`### [${src.index}] ${src.title}`, "");
+            lines.push(`- **Section:** ${src.section}`);
+            lines.push(`- **File:** \`${src.source}\``);
+            lines.push(`- **Retrieval Score:** ${Number(src.score).toFixed(3)}`, "");
+            const quoted = String(src.text || "")
+              .split(/\r?\n/)
+              .map((line) => (line.trim() === "" ? ">" : `> ${line}`))
+              .join("\n");
+            lines.push(quoted, "");
+          }
+        }
+        lines.push("---", "", `*${data.disclaimer || ""}*`, "");
+        return lines.join("\n");
+      }
+
+      function exportLastMarkdown() {
+        if (!lastResponse) return;
+        const md = buildAnswerMarkdown(lastQuestion, lastResponse);
+        const slug = lastQuestion
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "")
+          .slice(0, 48);
+        const filename = `insurance-rag-${slug || "answer"}-${new Date().toISOString().slice(0, 10)}.md`;
+        const blob = new Blob([md], { type: "text/markdown;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+        const btn = document.getElementById("exportMdBtn");
+        if (btn) {
+          btn.textContent = "Exported .md";
+          setTimeout(() => {
+            btn.textContent = "Export Markdown";
+          }, 2500);
+        }
+      }
+
+      async function shareLastQuery() {
+        if (!lastQuestion) return;
+        const url = new URL(window.location.href);
+        url.search = "";
+        url.searchParams.set("q", lastQuestion);
+        const shareUrl = url.toString();
+        window.history.replaceState(null, "", `${url.pathname}${url.search}`);
+
+        const shareBar = document.getElementById("shareBar");
+        const shareInput = document.getElementById("shareUrlInput");
+        if (shareBar && shareInput) {
+          shareInput.value = shareUrl;
+          shareBar.classList.add("visible");
+        }
+
+        const btn = document.getElementById("shareQueryBtn");
+        try {
+          await navigator.clipboard.writeText(shareUrl);
+          if (btn) {
+            btn.textContent = "Link Copied";
+            setTimeout(() => {
+              btn.textContent = "Share";
+            }, 2500);
+          }
+        } catch {
+          if (shareInput) shareInput.select();
+        }
+      }
+
+      function getPlainTextAnswer(answer) {
+        return String(answer || "")
+          .replace(/[ \t]*\[\d+\]/g, "")
+          .replace(/[ \t]+([.,;:!?)])/g, "$1")
+          .replace(/[ \t]{2,}/g, " ")
+          .replace(/^[ \t]+|[ \t]+$/gm, "")
+          .trim();
+      }
+
+      async function copyLastPlainText() {
+        if (!lastResponse) return;
+        const plain = getPlainTextAnswer(lastResponse.answer);
+        if (!plain) return;
+        const btn = document.getElementById("copyPlainBtn");
+        try {
+          await navigator.clipboard.writeText(plain);
+          if (btn) {
+            btn.textContent = "Copied!";
+            setTimeout(() => {
+              btn.textContent = "Copy to Clipboard";
+            }, 2500);
+          }
+        } catch {
+          const ta = document.createElement("textarea");
+          ta.value = plain;
+          ta.setAttribute("readonly", "");
+          ta.style.position = "fixed";
+          ta.style.opacity = "0";
+          document.body.appendChild(ta);
+          ta.select();
+          const ok = document.execCommand("copy");
+          ta.remove();
+          if (ok && btn) {
+            btn.textContent = "Copied!";
+            setTimeout(() => {
+              btn.textContent = "Copy to Clipboard";
+            }, 2500);
+          }
+        }
+      }
+
+      function renderResult(data) {
+        lastResponse = data;
+        resultCard.classList.add("visible");
+        const abstainedBanner = data.abstained
+          ? `<div class="abstain-notice">Not found in indexed documents (best retrieval score: ${Number(
+              data.best_score || 0
+            ).toFixed(3)})</div>`
+          : "";
+
+        let sourcesHtml = "";
+        if (Array.isArray(data.sources) && data.sources.length > 0) {
+          const items = data.sources
+            .map(
+              (src) => `
+              <details class="source-item" id="source-${src.index}">
+                <summary>
+                  <div class="source-title-wrap">
+                    <div class="source-title">[${src.index}] ${escapeHtml(src.title)}</div>
+                    <div class="source-meta">${escapeHtml(src.section)} · ${escapeHtml(src.source)}</div>
+                  </div>
+                  <span class="source-score">Score ${Number(src.score).toFixed(3)}</span>
+                </summary>
+                <div class="source-body">${escapeHtml(src.text)}</div>
+              </details>`
+            )
+            .join("");
+
+          sourcesHtml = `
+            <h2 class="sources-heading">Cited Passages (${data.sources.length})</h2>
+            <div class="source-list">${items}</div>
+          `;
+        }
+
+        resultCard.innerHTML = `
+          <div class="result-toolbar">
+            <span class="result-label">${data.abstained ? "Abstention Notice" : "Grounded Answer"}</span>
+            <div class="result-actions">
+              <button type="button" class="export-btn" id="exportMdBtn">Export Markdown</button>
+              <button type="button" class="share-btn" id="shareQueryBtn">Share</button>
+            </div>
+          </div>
+          <div class="share-bar" id="shareBar">
+            <strong>Shareable URL:</strong>
+            <input type="text" id="shareUrlInput" readonly aria-label="Shareable question URL" />
+          </div>
+          ${abstainedBanner}
+          <div class="answer-row">
+            <p class="answer-text">${renderAnswerWithCitations(data.answer)}</p>
+            <button type="button" class="copy-plain-btn" id="copyPlainBtn">Copy to Clipboard</button>
+          </div>
+          ${sourcesHtml}
+          <div class="disclaimer">${escapeHtml(data.disclaimer || "")}</div>
+        `;
+
+        const copyPlainBtn = document.getElementById("copyPlainBtn");
+        if (copyPlainBtn) {
+          copyPlainBtn.addEventListener("click", copyLastPlainText);
+        }
+        const exportBtn = document.getElementById("exportMdBtn");
+        if (exportBtn) {
+          exportBtn.addEventListener("click", exportLastMarkdown);
+        }
+        const shareBtn = document.getElementById("shareQueryBtn");
+        if (shareBtn) {
+          shareBtn.addEventListener("click", shareLastQuery);
+        }
+
+        resultCard.querySelectorAll(".cite-link").forEach((btn) => {
+          const setHoverHighlight = (active) => {
+            const targetId = `source-${btn.getAttribute("data-cite")}`;
+            const el = document.getElementById(targetId);
+            if (!el) return;
+            el.classList.toggle("highlighted", active || el.dataset.pinned === "true");
+          };
+          btn.addEventListener("mouseenter", () => setHoverHighlight(true));
+          btn.addEventListener("mouseleave", () => setHoverHighlight(false));
+          btn.addEventListener("focus", () => setHoverHighlight(true));
+          btn.addEventListener("blur", () => setHoverHighlight(false));
+          btn.addEventListener("click", () => {
+            const targetId = `source-${btn.getAttribute("data-cite")}`;
+            const el = document.getElementById(targetId);
+            if (!el) return;
+            resultCard
+              .querySelectorAll(".source-item.highlighted")
+              .forEach((n) => {
+                n.classList.remove("highlighted");
+                delete n.dataset.pinned;
+              });
+            el.open = true;
+            el.dataset.pinned = "true";
+            el.classList.add("highlighted");
+            el.scrollIntoView({ behavior: "smooth", block: "nearest" });
+          });
+        });
+      }
+
+      async function submitQuestion(question) {
+        const trimmed = question.trim();
+        if (!trimmed) return;
+        lastQuestion = trimmed;
+        lastResponse = null;
+
+        askBtn.disabled = true;
+        askBtn.textContent = "Searching...";
+        resultCard.classList.add("visible");
+        resultCard.innerHTML = `<p class="answer-text">Searching indexed insurance documents...</p>`;
+
+        try {
+          const res = await fetch("/ask", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ question: trimmed }),
+          });
+          const data = await res.json();
+          if (!res.ok) {
+            throw new Error(data.detail || "Request failed");
+          }
+          renderResult(data);
+        } catch (err) {
+          resultCard.innerHTML = `<div class="error-notice">${escapeHtml(
+            err instanceof Error ? err.message : "Failed to query the server."
+          )}</div>`;
+        } finally {
+          askBtn.disabled = false;
+          askBtn.textContent = "Ask question";
+        }
+      }
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        submitQuestion(input.value);
+      });
+
+      document.querySelectorAll(".sample-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const q = btn.getAttribute("data-q") || "";
+          input.value = q;
+          submitQuestion(q);
+        });
+      });
+
+      checkHealth();
+      const initialSharedQuery = (new URLSearchParams(window.location.search).get("q") || "").trim();
+      if (initialSharedQuery) {
+        input.value = initialSharedQuery;
+        submitQuestion(initialSharedQuery);
+      }
+    </script>
+  </body>
+</html>
